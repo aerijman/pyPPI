@@ -12,8 +12,8 @@ setup(
     scripts=['bin/setupPpiDb.py'],
     url='https://github.com/eranroz/pyPPI',
     license='MIT',
-    author='eranroz',
-    author_email='eranroz@cs.huji.ac.il',
+    authors='eranroz','aerijman'
+    author_email='eranroz@cs.huji.ac.il','aerijman@fredhutch.org'
     description='Protein-Protein interactions calculations', requires=['requests', 'pymysql'],
     data_files=[('pyPPI/molprobity', ['pyPPI/molprobity/molprobity.pl',
                                       'pyPPI/molprobity/remediator.pl',
