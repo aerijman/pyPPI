@@ -10,7 +10,7 @@ setup(
     version='0.1',
     packages=['pyPPI', 'pyPPI.alignment', 'pyPPI.surfaceComplementarity'],
     scripts=['bin/setupPpiDb.py'],
-    url='https://github.com/eranroz/pyPPI',
+    url='https://github.com/eranroz/pyPPI','https://github.com/aerijman/pyPPI'
     license='MIT',
     authors='eranroz','aerijman'
     author_email='eranroz@cs.huji.ac.il','aerijman@fredhutch.org'
